@@ -22,7 +22,8 @@ const config = {
       deepmerge$: path.resolve(
         __dirname,
         "../node_modules/deepmerge/dist/umd.js"
-      )
+      ),
+      "universal-user-agent$": "universal-user-agent/dist-node/index.js"
     }
   },
   module: {
